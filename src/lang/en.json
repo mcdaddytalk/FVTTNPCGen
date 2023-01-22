@@ -1,0 +1,94 @@
+{
+  "npcGen": {
+    "useSubclass": "Use subclass?",
+    "useMinMaxStats": "Min/Max stats?",
+    "gender": "Gender",
+    "traits": "Traits",
+    "professions": "Professions",
+    "relationship": "Relationship",
+    "lists": "Lists",
+    "orientation": "Orientation",
+    "races": "Races",
+    "classes": "Classes",
+    "abilityScore": "Ability Score",
+    "strength": "Strength",
+    "dexterity": "Dexterity",
+    "constitution": "Constitution",
+    "intelligence": "Intelligence",
+    "wisdom": "Wisdom",
+    "charisma": "Charisma",
+    "relationships": "Relationships",
+    "profession": "Profession",
+    "racial": "Racial",
+    "race": "Race",
+    "age": "Age",
+    "language": "Language",
+    "height": "Height",
+    "weight": "Weight",
+    "speed": "Speed",
+    "class": "Class",
+    "subclass": "Subclass",
+    "hp": "Hp",
+    "savingThrow": "Saving Throw",
+    "skills": "Skills",
+    "proficiencies": "Proficiencies",
+    "plotHook": "Plot Hook",
+    "cancel": "Cancel",
+    "generate": "Generate",
+    "accept": "Accept",
+    "level": "Level",
+    "levelDesc": "For hp",
+    "names": "Names",
+    "confirm": {
+      "close": {
+        "Title": "Save before closing?",
+        "Desc": "Do you want to save before closing?"
+      },
+      "apply": {
+        "Title": "Are you sure?"
+      }
+    },
+    "probability": "Probability",
+    "amount": "Amount",
+    "forceFirstName": "Force first names from this race to be used",
+    "forceLastName": "Force last names from this race to be used",
+    "exampleDoubleClick": "Double click for an example",
+    "icon": "Icon",
+    "amountToGen": "Are you sure you want to create %n npcs?",
+    "default": "Default",
+    "useDefault": {
+      "On": "Using default and custom",
+      "Off": "Only using custom",
+      "Hint": "Toggles between using default data on top of custom data or custom data only."
+    },
+    "save": "Save",
+    "reset": {
+      "Name": "Reset",
+      "Hint": "Resets current view to it's default value."
+    },
+    "error": {
+      "ui": "Generating large numbers of NPCs can damage your world, this function is limited to 64 NPCs at a time",
+      "console": "Generating large numbers of NPCs can damage your world 💣💥💀, by default this function is limited to 64 NPCs at a time"
+    },
+    "settings": {
+      "exportSettings": {
+        "Title": "Export/Import settings",
+        "Label": "Open",
+        "Hint": "Copy or paste all NPC Generator settings"
+      },
+      "jsonEditor": {
+        "Title": "Custom Generator Entries",
+        "Label": "Open Editor",
+        "Hint": "Opens a json editor that allows you to add your own entries to the generator. Double click on a tab for an example. Or see examples.md on the github for more info."
+      },
+      "roleSpecificImages": {
+        "Name": "Role specific images",
+        "Hint": "Allows to supply role specific image paths if enabled"
+      },
+      "compatMode": {
+        "Name": "Save NPCs as character.",
+        "Hint": "Makes the generator save NPCs as a PC instead of NPC. Might improve compatibility."
+      }
+    }
+  }
+}

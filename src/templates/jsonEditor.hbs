@@ -1,0 +1,66 @@
+<form class="json-code-editor" id="json-editor" autocomplete="off" onsubmit="event.preventDefault()">
+
+    <!-- tab buttons -->
+    <div class="buttonDiv">
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="classesJSON">{{localize "npcGen.classes"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="languagesJSON">{{localize "npcGen.language"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="namesJSON">{{localize "npcGen.names"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="traitsJSON">{{localize "npcGen.traits"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="plothooksJSON">{{localize "npcGen.plotHook"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="professionsJSON">{{localize "npcGen.professions"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="racesJSON">{{localize "npcGen.races"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="sexJSON">{{localize "npcGen.relationship"}}</button>
+        </div>
+        <div class="buttonSeperator">
+            <button type="button" title="{{localize "npcGen.exampleDoubleClick"}}" class="header-button" name="listJSON">{{localize "npcGen.lists"}}</button>
+        </div>
+    </div>
+
+
+    <!-- code editor window -->
+    <div class="json-code-editor-border">
+
+        <div class="editor" id="classesJSON"></div>
+        <div class="editor" id="languagesJSON"></div>
+        <div class="editor" id="namesJSON"></div>
+        <div class="editor" id="traitsJSON"></div>
+        <div class="editor" id="plothooksJSON"></div>
+        <div class="editor" id="professionsJSON"></div>
+        <div class="editor" id="racesJSON"></div>
+        <div class="editor" id="sexJSON"></div>
+        <div class="editor" id="listJSON"></div>
+
+    </div>
+
+    <div class="bottomButtonDiv">
+        <button type="button" class="save-json-button">{{localize "npcGen.save"}}</button>
+
+        <button type="button" class="toggle-button" id="classesJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyClassesJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="languagesJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyLanguagesJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="namesJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyNamesJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="traitsJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyTraitsJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="plothooksJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyPlothooksJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="professionsJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyProfessionsJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="racesJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyRacesJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="sexJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlySexJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+        <button type="button" class="toggle-button" id="listJSON" title="{{localize "npcGen.useDefault.Hint"}}">{{#if onlyListJSON}}{{localize "npcGen.useDefault.Off"}}{{else}}{{localize "npcGen.useDefault.On"}}{{/if}}</button>
+
+        <button type="button" class="reset-current-json" title="{{localize "npcGen.reset.Hint"}}">{{localize "npcGen.reset.Name"}}</button>
+    </div>
+
+</form>
