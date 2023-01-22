@@ -149,3 +149,8 @@ Hooks.on('renderActorDirectory', (actorDirectory: ActorDirectory, html: JQuery<H
     });
   }
 });
+
+// Add any additional hooks if necessary
+Hooks.once('devModeReady', ({ registerPackageDebugFlag }: DevModeApi) => {
+  registerPackageDebugFlag(FVTTNPCGen.ID, 'boolean', { default: true });
+});
